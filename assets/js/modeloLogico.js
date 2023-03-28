@@ -15,7 +15,7 @@ function doisdigitos(digito){
 }
 function play(){
     watch();
-    intervalo= setInterval(watch,0.5);
+    intervalo = setInterval(watch,1000);
 
 }
 function stopAction(){
