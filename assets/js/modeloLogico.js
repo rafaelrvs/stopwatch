@@ -44,5 +44,20 @@ function watch(){
         min=0;
     }
     document.getElementById('watch').innerHTML=doisdigitos(hr)  + ':' +doisdigitos(min) + ':' + doisdigitos(sec);
+ 
+   if(min == true)
+    {
+    
+        var clock = document.getElementById('watch')
+        clock.style.boxShadow = '5px 5px 10px rgb(90, 40, 40)'
+    
+    }
+        if(hr == true)
+    {
+    
+        var clock = document.getElementById('watch')
+        clock.style.boxShadow = '5px 5px 10px rgb(10, 50, 300)'
+    
+    }
 
 }
